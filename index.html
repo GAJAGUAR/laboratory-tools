@@ -22,11 +22,11 @@
     <form class="mb-4">
       <div class="form-row">
         <div class="form-group col-md">
-          <label for="input-01">25 mm</label>
+          <label for="input-01">25,0 mm</label>
           <input type="number" id="input-01" class="form-control" min="0" max="100" value="0.0"/>
         </div>
         <div class="form-group col-md">
-          <label for="input-02">19 mm</label>
+          <label for="input-02">19,0 mm</label>
           <input type="number" id="input-02" class="form-control" min="0" max="100" value="0.0"/>
         </div>
         <div class="form-group col-md">
@@ -41,6 +41,17 @@
           <label for="input-05">0,075 mm</label>
           <input type="number" id="input-05" class="form-control" min="0" max="100" value="0.0"/>
         </div>
+        <div class="form-group col-md">
+          <label for="input-05">Índice asfáltico</label>
+          <select class="custom-select">
+            <option selected>Seleccionar</option>
+            <option value="0.0050">0,0055 Gravas o arenas de r&iacute;o o materiales redondeados de baja absorci&oacute;n</option>
+            <option value="0.0055">0,0060 Gravas angulosas redondeadas, triturados de baja absorci&oacute;n</option>
+            <option value="0.0060">0,0070 Gravas angulosas o redondeadas de alta absorci&oacute;n y rocas trituradas de
+            absorci&oacute;n media</option>
+            <option value="0.0060">0,0080 Rocas trituradas de alta absorci&oacute;n</option>
+          </select>
+        </div>
       </div>
       <button type="button" class="btn btn-success text-uppercase">calcular</button>
     </form>
@@ -54,8 +65,8 @@
             <th scope="col" class="text-center">De (mm)</th>
             <th scope="col" class="text-center">A (mm)</th>
             <th scope="col" class="text-center">Retenido (%)</th>
-            <th scope="col" class="text-center">Constante de área</th>
-            <th scope="col" class="text-center">Superficie Específica (m<sup>2</sup>/kg)</th>
+            <th scope="col" class="text-center">Constante de &aacute;rea</th>
+            <th scope="col" class="text-center">Superficie Espec&iacute;fica (m<sup>2</sup>/kg)</th>
           </tr>
         </thead>
         <tbody>
