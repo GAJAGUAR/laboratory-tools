@@ -1,0 +1,11 @@
+
+> fibers@4.0.2 install D:\Development\Projects\laboratory-tools\node_modules\fibers
+> node build.js || nodejs build.js
+
+`win32-x64-72` exists; testing
+Binary is fine; exiting
++ fibers@4.0.2
++ sass@1.3.0
+added 3 packages from 4 contributors and audited 25367 packages in 21.342s
+found 0 vulnerabilities
+
