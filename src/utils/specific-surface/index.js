@@ -73,7 +73,7 @@ class Total {
     value = 0;
     sum = 0;
 
-    this._groups.forEach(function(element) {
+    this._groups.forEach(function (element) {
       value = element.surface;
       sum = round(sum + value, 4);
     });
@@ -97,7 +97,7 @@ const constants = [
   0.41, // 19,000 mm to  4,750 mm
   2.05, //  4,750 mm to  0,425 mm
   15.38, //  0,425 mm to  0,075 mm
-  53.3 //  0,075 mm to infinite
+  53.3, //  0,075 mm to infinite
 ];
 
 // Sieve opening in milimeters
